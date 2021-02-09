@@ -3,6 +3,7 @@
     color: white;
     height: 448px;
     object-fit: contain;
+    padding-top: 80px;
 }
 
 .banner_content{

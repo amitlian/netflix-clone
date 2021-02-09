@@ -34,7 +34,6 @@ function Banner() {
             backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,  
             backgroundSize: "cover",
             backgroundPosition: "center",
-            margin: "auto auto"
         }}>
             <div className="banner_content">
                 <h1 className="banner_title">{movie?.original_title || movie?.title || movie?.name }</h1>
